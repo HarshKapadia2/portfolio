@@ -66,29 +66,29 @@ main
 	margin: 3em 0 2em 0;
 }
 
-.salient-project
+.sub-section
 {
 	display: flex;
 	margin: 3em 0;
 }
 
-.project-details
+.col-1
 {
 	flex: 0.3;
 	margin-right: 0.2em;
 }
 
-.project-name
+.sub-section-name
 {
 	font-size: 30px;
 }
 
-.project-descp
+.sub-section-descp
 {
 	margin: 1.5em 0 2em 0;
 }
 
-.project-details a
+.col-1 a
 {
 	word-break: break-all;
 }
@@ -103,7 +103,7 @@ main
 	margin-top: 2em;
 }
 
-.salient-project iframe
+.sub-section iframe
 {
 	flex: 0.7;
 	height: 80vh;
@@ -124,12 +124,12 @@ footer
 		margin-bottom: 0;
 	}
 
-	.salient-project
+	.sub-section
 	{
 		flex-direction: column;
 	}
 
-	.project-details
+	.col-1
 	{
 		margin-right: 0;
 	}
@@ -139,7 +139,7 @@ footer
 		margin-bottom: 1em;
 	}
 
-	.salient-project iframe
+	.sub-section iframe
 	{
 		width: 85vw;
 		margin: auto;
