@@ -32,7 +32,8 @@ h2
 	font-size: 18px;
 	font-size: clamp(18px, 2vw, 20px);
 	color: #757575;
-	margin-bottom: 1em;
+	margin: 0 0.2em 1em 0.2em;
+	text-align: center;
 }
 
 ul
@@ -81,6 +82,7 @@ main
 .sub-section-name
 {
 	font-size: 30px;
+	font-weight: bold;
 }
 
 .sub-section-descp
@@ -110,6 +112,35 @@ main
 	border: 1px solid black;
 }
 
+.col-2
+{
+	flex: 0.7;
+	flex-direction: column;
+}
+
+.talk-details
+{
+	margin: 3em 0;
+}
+
+.last-talk-of-year
+{
+	margin-top: 0;
+}
+
+.talk-title
+{
+	font-size: 25px;
+	font-weight: bold;
+	margin-bottom: 0.5em;
+}
+
+.talk-platform, .talk-location-date
+{
+	color: #757575;
+	margin-bottom: 0.5em;
+}
+
 footer
 {
 	padding: 2em 0.2em;
@@ -132,10 +163,6 @@ footer
 	.col-1
 	{
 		margin-right: 0;
-	}
-
-	.project-tech
-	{
 		margin-bottom: 1em;
 	}
 
