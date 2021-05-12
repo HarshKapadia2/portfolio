@@ -51,6 +51,11 @@ li
 	margin: 1em 0.5em 1em 0.5em;
 }
 
+a
+{
+	text-underline-offset: 0.25em;
+}
+
 #cta
 {
 	margin: 2em 0.5em 0 0.5em;
