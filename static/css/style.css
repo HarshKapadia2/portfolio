@@ -48,7 +48,7 @@ ul
 li
 {
 	padding: 0.2em;
-	margin: 1em 0.5em 1em 0.5em;
+	margin: 1em 0.5em;
 }
 
 a
@@ -119,11 +119,23 @@ main
 	margin-top: 2em;
 }
 
+#mobile-project
+{
+	flex: 0.7;
+	display: flex;
+	justify-content: center;
+}
+
 .sub-section iframe
 {
 	flex: 0.7;
 	height: 80vh;
 	border: 1px solid black;
+}
+
+#mobile-iframe
+{
+	width: 360px;
 }
 
 .col-2
