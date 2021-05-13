@@ -51,6 +51,20 @@ li
 	margin: 1em 0.5em;
 }
 
+.bullet-list
+{
+	flex-direction: column;
+	list-style-type: disc;
+	list-style-position: inside;
+	margin: 0 0.2em 2em 0.2em;
+}
+
+.bullet-list li
+{
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
 a
 {
 	text-underline-offset: 4px;
@@ -73,6 +87,19 @@ a
 main
 {
 	width: 90vw;
+}
+
+#main-section-width
+{
+	width: 50vw;
+	margin-top: 3em;
+}
+
+#about-text
+{
+	font-size: 18px;
+	text-align: justify;
+	line-height: 25px;
 }
 
 .section-title
@@ -174,8 +201,21 @@ footer
 	font-size: 20px;
 }
 
+@media screen and (max-width: 1024px)
+{
+	#main-section-width
+	{
+		width: 65vw;
+	}
+}
+
 @media screen and (max-width: 650px)
 {
+	#main-section-width
+	{
+		width: 85vw;
+	}
+
 	#section-title
 	{
 		margin-bottom: 0;
