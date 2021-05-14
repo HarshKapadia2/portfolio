@@ -108,6 +108,17 @@ main
 	margin: 3em 0 2em 0;
 }
 
+.jump-link
+{
+	margin-left: -1em;
+}
+
+.jump-link img
+{
+	width: 0.5em;
+	margin: 0 0.2em;
+}
+
 .sub-section
 {
 	display: flex;
@@ -216,9 +227,17 @@ footer
 		width: 85vw;
 	}
 
-	#section-title
+	.section-title
 	{
 		margin-bottom: 0;
+		margin-left: 0.5em;
+		margin-right: 0.5em;
+	}
+
+	#main-section-width .section-title
+	{
+		margin-left: 0.2em;
+		margin-bottom: 1em;
 	}
 
 	.sub-section
@@ -228,8 +247,7 @@ footer
 
 	.col-1
 	{
-		margin-right: 0;
-		margin-bottom: 1em;
+		margin: 0 1em 1em 1em;
 	}
 
 	.sub-section iframe
