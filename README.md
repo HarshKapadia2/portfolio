@@ -1,5 +1,7 @@
 # portfolio
 
-In progress!
+Portfolio v2 -> https://github.com/HarshKapadia2/portfolio-v2
 
-Temporarily hosted at [harshkapadia2.github.io/portfolio](https://harshkapadia2.github.io/portfolio/).
+~In progress!~
+
+~Temporarily hosted at [harshkapadia2.github.io/portfolio](https://harshkapadia2.github.io/portfolio/).~
